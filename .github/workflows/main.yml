@@ -52,7 +52,7 @@ jobs:
       # Commit file
       #
       - name: ↗️ Create Pull Request
-        uses: create-pull-request@v4
+        uses: actions/create-pull-request@v4
         with:
           token: ${{ secrets.DOMAIN_SECRET }}
           title: 'Update Domain List'
