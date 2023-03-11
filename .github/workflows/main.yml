@@ -28,7 +28,7 @@ jobs:
         working-directory: ${{ env.FOLDER }}
         run: |
           LIST_URL="https://adaway.org/hosts.txt"
-          LIST_FNAME="pihole_domain_list.txt"
+          LIST_FNAME="pihole_domain_list3.txt"
 
           echo "[*] Fetching list: ${LIST_URL} -> ${LIST_FNAME}"
           wget --quiet $LIST_URL -O $LIST_FNAME
