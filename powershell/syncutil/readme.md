@@ -1,3 +1,6 @@
+Discliamer: This was generated with AI and is more of POC
+
+
 PowerShell Script to Mirror Permissions on Files and Folders with File Shares
 This PowerShell script automates the process of mirroring permissions on files and folders with file shares for users across two domains that have a full trust. The users have accounts in both domains, and the shares are in the legacy domain while the user devices are in the target domain.
 
